@@ -7,7 +7,9 @@
     <title>Document</title>
 </head>
 <script>
-
+/*Uncaught ReferenceError: Cannot access 'playerSelection' before initialization
+    at roundResults (index.html:23:36)
+    at index.html:35:1*/
 function playRound(playerSelection, computerSelection) {
     const computerChoice = ["rock", "paper", "scissors"];
     const random = Math.floor(Math.random() * computerChoice.length);
